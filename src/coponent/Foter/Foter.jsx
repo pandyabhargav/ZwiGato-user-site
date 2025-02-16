@@ -154,7 +154,7 @@ function Foter() {
                             <h5>@ Copyright 2024 ZOMO. All rights Reserved.</h5>
                         </div>
                         <div className='col-5'>
-                            <img src="images\footer-card.png" alt="foter-cards"  className='img-fluid' />
+                            <img src=".\images\footer-card.png" alt="foter-cards"  className='img-fluid' />
                         </div>
                     </div>
                 </Container>

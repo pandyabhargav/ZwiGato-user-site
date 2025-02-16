@@ -12,7 +12,7 @@ const restaurants = [
         location: 'New Jersey',
         distance: '3 km',
         time: '25 min',
-        imgSrc: '/images/vp-9.png',
+        imgSrc: './images/vp-9.png',
     },
     {
         name: 'Ribeye Junction',
@@ -21,7 +21,7 @@ const restaurants = [
         location: 'California',
         distance: '1 km',
         time: '10 min',
-        imgSrc: '/images/vp-10.png',
+        imgSrc: './images/vp-10.png',
     },
     {
         name: 'Grill Master\'s Cafe',
@@ -30,7 +30,7 @@ const restaurants = [
         location: 'New York',
         distance: '5 km',
         time: '40 min',
-        imgSrc: '/images/vp-11.png',
+        imgSrc: './images/vp-11.png',
     },
     {
         name: 'Cozy Cuppa Cafe',
@@ -39,7 +39,7 @@ const restaurants = [
         location: 'Dallas',
         distance: '4 km',
         time: '30 min',
-        imgSrc: '/images/vp-12.png',
+        imgSrc: './images/vp-12.png',
     },
     {
         name: 'Mocha Magic Cafe',
@@ -48,7 +48,7 @@ const restaurants = [
         location: 'Seattle',
         distance: '1 km',
         time: '8 min',
-        imgSrc: '/images/vp-13.png',
+        imgSrc: './images/vp-13.png',
     },
     {
         name: 'Latte Lounge',
@@ -57,7 +57,7 @@ const restaurants = [
         location: 'Atlanta',
         distance: '3 km',
         time: '25 min',
-        imgSrc: '/images/vp-14.png',
+        imgSrc: './images/vp-14.png',
     },
     {
         name: 'The Burger Barn',
@@ -66,7 +66,7 @@ const restaurants = [
         location: 'Chicago',
         distance: '2 km',
         time: '20 min',
-        imgSrc: '/images/vp-15.png',
+        imgSrc: './images/vp-15.png',
     },
     {
         name: 'Wing Master',
@@ -75,7 +75,7 @@ const restaurants = [
         location: 'New York',
         distance: '2 km',
         time: '12 min',
-        imgSrc: '/images/vp-16.png',
+        imgSrc: './images/vp-16.png',
     },
 ];
 function Menu() {

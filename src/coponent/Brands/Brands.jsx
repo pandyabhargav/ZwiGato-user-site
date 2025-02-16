@@ -16,17 +16,17 @@ function Brands() {
                     <div className="col-12 pt-5">
                         <Swiper watchSlidesProgress={true} slidesPerView={8} loop={true} className="mySwiper swiper-2">
                             {[
-                                { to: "/brand/la-pinoz", src: "/images/brand1.png", alt: "La Pino'z", name: "La Pino'z" },
-                                { to: "/brand/mcd", src: "/images/brand2.png", alt: "Mc'd", name: "Mc'd" },
-                                { to: "/brand/starbucks", src: "/images/brand3.png", alt: "Starbucks", name: "Starbucks" },
-                                { to: "/brand/pizza-hut", src: "/images/brand4.png", alt: "Pizza Hut", name: "Pizza Hut" },
-                                { to: "/brand/wendys", src: "/images/brand5.png", alt: "Wendy's", name: "Wendy's" },
-                                { to: "/brand/burger-king", src: "/images/brand6.png", alt: "Burger King", name: "Burger King" },
-                                { to: "/brand/subway", src: "/images/brand7.png", alt: "Subway", name: "Subway" },
-                                { to: "/brand/dominos", src: "/images/brand8.png", alt: "Domino's", name: "Domino's" },
-                                { to: "/brand/taco-bell", src: "/images/brand9.png", alt: "Taco Bell", name: "Taco Bell" },
-                                { to: "/brand/chipotle", src: "/images/brand10.png", alt: "Chipotle", name: "Chipotle" },
-                                { to: "/brand/kfc", src: "/images/brand11.png", alt: "KFC", name: "KFC" },
+                                { to: "/brand/la-pinoz", src: "./images/brand1.png", alt: "La Pino'z", name: "La Pino'z" },
+                                { to: "/brand/mcd", src: "./images/brand2.png", alt: "Mc'd", name: "Mc'd" },
+                                { to: "/brand/starbucks", src: "./images/brand3.png", alt: "Starbucks", name: "Starbucks" },
+                                { to: "/brand/pizza-hut", src: "./images/brand4.png", alt: "Pizza Hut", name: "Pizza Hut" },
+                                { to: "/brand/wendys", src: "./images/brand5.png", alt: "Wendy's", name: "Wendy's" },
+                                { to: "/brand/burger-king", src: "./images/brand6.png", alt: "Burger King", name: "Burger King" },
+                                { to: "/brand/subway", src: "./images/brand7.png", alt: "Subway", name: "Subway" },
+                                { to: "/brand/dominos", src: "./images/brand8.png", alt: "Domino's", name: "Domino's" },
+                                { to: "/brand/taco-bell", src: "./images/brand9.png", alt: "Taco Bell", name: "Taco Bell" },
+                                { to: "/brand/chipotle", src: "./images/brand10.png", alt: "Chipotle", name: "Chipotle" },
+                                { to: "/brand/kfc", src: "./images/brand11.png", alt: "KFC", name: "KFC" },
                             ].map((brand, index) => (
                                 <SwiperSlide key={index} className="swiper-slider-3">
                                     <Link to={brand.to}>

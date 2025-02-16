@@ -92,7 +92,7 @@ function Header() {
               </div>
               <div className='profile d-flex jusify-content-center align-items-center'>
                 <div className='p-3'>
-                  <img src="images\20230620_095708.png" alt="profile-img" />
+                  <img src=".\images\20230620_095708.png" alt="profile-img" />
                 </div>
                 <div>
 

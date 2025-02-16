@@ -73,7 +73,7 @@ function Menugrid() {
                                 <div key={item.id} className='col-4 p-1'>
                                     <Card style={{ width: 'auto' }}>
                                         <div className='card-wraper m-0 '>
-                                            <Card.Img variant="center" src={`images/vp-${item.id}.png`} className='img-fluid' />
+                                            <Card.Img variant="center" src={`./images/vp-${item.id}.png`} className='img-fluid' />
                                         </div>
                                         <Card.Body className='col-12'>
                                             <Card.Text className='py-1'>
