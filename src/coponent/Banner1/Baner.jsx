@@ -47,7 +47,7 @@ function Baner() {
                 </div>
               </div>
               <div className='col-5 d-flex  align-items-center'>
-                <img src="public\images\home-vector.png" alt="bike-img" />
+                <img src="\images\home-vector.png" alt="bike-img" />
               </div>
             </div>
           </Row>
